@@ -8,7 +8,7 @@ import csv
     # account_table = dynamodb.Table(table_name)
 
 
-with open("./Input_file.csv", 'r') as file:
+with open("Input_file.csv", 'r') as file:
     csv_reader = csv.reader(file)
     for row in csv_reader:
         ABO = str(row[0])
