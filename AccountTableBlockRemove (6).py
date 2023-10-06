@@ -21,7 +21,7 @@ with open("./Input_file.csv", 'r') as file:
         Key={
              'accountNumber': ABO
              },
-        print(ABO)
+        print(ABO + "+" + NAME ) 
 #             UpdateExpression='REMOVE blockPrivilegeList',
 #             ConditionExpression= 'accountNumber= :accNum',
 #             ExpressionAttributeValues={
